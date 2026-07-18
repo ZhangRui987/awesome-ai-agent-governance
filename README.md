@@ -92,7 +92,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ## Enterprise Governance Platforms
 
-- [Certiv](https://certiv.ai/?utm_source=awesome-ai-agent-governance&utm_medium=referral&utm_campaign=earned-placement) - Endpoint-native, pre-execution security and governance layer for AI agents. An endpoint agent inspects agent actions and tool calls on the device and enforces policy before they execute, with an audit trail of allowed and blocked actions.
+- [Certiv](https://certiv.ai/) - Endpoint-native, pre-execution security and governance layer for AI agents. An endpoint agent inspects agent actions and tool calls on the device and enforces policy before they execute, with an audit trail of allowed and blocked actions.
 - [Credo AI](https://www.credo.ai/) - Comprehensive AI governance platform covering risk assessment, compliance mapping (EU AI Act, NIST AI RMF, ISO 42001), model cards, and ongoing monitoring across the AI lifecycle.
 - [OneTrust AI Governance](https://www.onetrust.com/solutions/ai-governance/) - Inventory, risk assessment, and compliance controls for AI systems embedded in broader data governance and privacy programmes.
 - [Lumenova AI](https://www.lumenova.ai/) - AI lifecycle governance: risk assessment, explainability monitoring, and compliance reporting focused on model transparency and regulatory evidence.
@@ -130,8 +130,8 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ## Audit, Observability, and Cost Control
 
-- [LangFuse](https://langfuse.com/)
-- [Nobulex](https://github.com/arian-gogani/nobulex) — Cryptographic receipt layer for AI agents. Ed25519-signed, JCS-canonical bilateral receipts (pre/post execution), hash-chained, independently verifiable. EU AI Act Article 12 compliance. `pip install nobulex` / `npm install @nobulex/core`. - Open-source LLM observability. Full trace capture with spans, generations, scores, and costs. Self-hostable with integrations for LangChain, LlamaIndex, OpenAI, and Anthropic SDKs.
+- [LangFuse](https://langfuse.com/) - Open-source LLM observability. Full trace capture with spans, generations, scores, and costs. Self-hostable with integrations for LangChain, LlamaIndex, OpenAI, and Anthropic SDKs.
+- [Nobulex](https://github.com/arian-gogani/nobulex) - Cryptographic receipt layer for AI agents. Ed25519-signed, JCS-canonical bilateral receipts (pre/post execution), hash-chained, independently verifiable. EU AI Act Article 12 compliance. `pip install nobulex` / `npm install @nobulex/core`.
 - [OpenTelemetry](https://opentelemetry.io/) - CNCF standard for distributed tracing, metrics, and logs. The vendor-neutral substrate for building agent observability pipelines.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based instrumentation SDK for LLM applications. Traces LLM calls with standard OTel spans and integrates with existing observability stacks.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability proxy. Request logging, cost tracking, caching, and rate limiting via a single proxy endpoint. Self-hostable.
