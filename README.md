@@ -19,6 +19,7 @@ Contributions welcome.
 - [Regulatory Frameworks](#regulatory-frameworks)
 - [Industry Standards and Guidance](#industry-standards-and-guidance)
 - [Open-Source Governance Toolkits](#open-source-governance-toolkits)
+- [Free Governance Tools](#free-governance-tools)
 - [Enterprise Governance Platforms](#enterprise-governance-platforms)
 - [Claude Code and MCP Governance](#claude-code-and-mcp-governance)
 - [Policy Engines and Authorisation](#policy-engines-and-authorisation)
@@ -90,8 +91,22 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ---
 
+## Free Governance Tools
+
+Interactive tools that answer common governance questions without a signup. Each is also callable by AI agents over HTTP (`POST /api/v1/tools/{tool}/run` with an `X-Agent-Id` header), so the same check an engineer runs in a browser runs in CI or inside a coding agent.
+
+- [EU AI Act Risk Classifier](https://systemprompt.io/tools/eu-ai-act-risk-classifier) - Walks the Annex III decision tree and returns your system's risk category (prohibited, high-risk, limited, minimal) with the specific articles that apply. Deterministic, not legal advice.
+- [CLAUDE.md Scorer](https://systemprompt.io/tools/claude-md-scorer) - Scores a CLAUDE.md against a structured rubric and reports what is missing. Usable in a hook to fail CI when agent instructions degrade.
+- [llms.txt Generator and Validator](https://systemprompt.io/tools/llms-txt-generator) - Generates or lints an llms.txt so AI crawlers and agents get a machine-readable index of your site.
+- [GitHub Actions Permissions Generator](https://systemprompt.io/tools/github-actions-permissions) - Produces a least-privilege `permissions:` block for a workflow instead of the default write-all token.
+- [AI ROI Calculator](https://systemprompt.io/tools/ai-roi-calculator) - Models the cost and payback of an AI rollout with explicit assumptions, for the business case behind a governance budget.
+- [systemprompt.io Reports MCP Server](https://systemprompt.io/tools/eu-ai-act-compliance-report) - Paid remote MCP server (`https://systemprompt.io/api/v1/mcp/systemprompt-reports/mcp`) returning decision-ready EU AI Act compliance reports (Annex III classification, article-by-article obligation gaps, Annex IV checklist, remediation plan). $1.50 per call via x402 USDC on Base or Stripe checkout; discovery free.
+
+---
+
 ## Enterprise Governance Platforms
 
+- [systemprompt.io](https://systemprompt.io) - Self-hosted AI governance infrastructure: a single compiled Rust binary on your own systems that governs, logs, and cost-controls every AI interaction across every provider and client (Claude, Codex, Gemini, or your own agents). Authentication, authorisation, audit trail, policy enforcement, and a provider gateway behind one /v1 endpoint. Air-gap capable; the only entry in this section you run entirely on your own infrastructure. Source-available BSL-1.1 via [systemprompt-template](https://github.com/systempromptio/systemprompt-template).
 - [Certiv](https://certiv.ai/) - Endpoint-native, pre-execution security and governance layer for AI agents. An endpoint agent inspects agent actions and tool calls on the device and enforces policy before they execute, with an audit trail of allowed and blocked actions.
 - [Credo AI](https://www.credo.ai/) - Comprehensive AI governance platform covering risk assessment, compliance mapping (EU AI Act, NIST AI RMF, ISO 42001), model cards, and ongoing monitoring across the AI lifecycle.
 - [OneTrust AI Governance](https://www.onetrust.com/solutions/ai-governance/) - Inventory, risk assessment, and compliance controls for AI systems embedded in broader data governance and privacy programmes.
