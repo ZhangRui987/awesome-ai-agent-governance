@@ -130,6 +130,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ## Audit, Observability, and Cost Control
 
+- [HELM AI Kernel](https://github.com/Mindburn-Labs/helm-ai-kernel) - Post-decision tamper-evident audit for MCP tool calls. Every ALLOW/DENY/ESCALATE decision produces a cryptographically signed receipt, bundled into an offline-verifiable EvidencePack, so you can prove what an agent executed under which policy independently of mutable logs. Targets EU AI Act Article 12 and SOC 2 evidence needs.
 - [LangFuse](https://langfuse.com/) - Open-source LLM observability. Full trace capture with spans, generations, scores, and costs. Self-hostable with integrations for LangChain, LlamaIndex, OpenAI, and Anthropic SDKs.
 - [Nobulex](https://github.com/arian-gogani/nobulex) - Cryptographic receipt layer for AI agents. Ed25519-signed, JCS-canonical bilateral receipts (pre/post execution), hash-chained, independently verifiable. EU AI Act Article 12 compliance. `pip install nobulex` / `npm install @nobulex/core`.
 - [OpenTelemetry](https://opentelemetry.io/) - CNCF standard for distributed tracing, metrics, and logs. The vendor-neutral substrate for building agent observability pipelines.
