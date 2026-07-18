@@ -80,6 +80,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 - [Casbin](https://github.com/casbin/casbin) - Access control library supporting ACL, RBAC, ABAC, and multi-tenant models. Language-agnostic with production implementations in Go, Rust, Python, Java, and Node.js.
 - [Kakunin](https://github.com/nqzai/kakunin-core) - Compliance and identity infrastructure for AI agents. Issues X.509 certificates via AWS KMS, enforces per-agent action scope before execution, scores behaviour against a rolling baseline, and auto-revokes credentials when risk crosses a threshold, with a tamper-evident audit trail for MiCA and the EU AI Act. Platform AGPL-3.0; SDKs Apache-2.0.
 - [LiteLLM](https://github.com/BerriAI/litellm) - Proxy layer for LLM API calls with per-key budgets, rate limiting, spend tracking, and model routing across all major providers.
+- [hummbl-governance](https://github.com/hummbl-dev/hummbl-governance) - Python package with 34 runtime-governance primitives for AI agents: kill switches, circuit breakers, cost governors, delegation tokens, append-only audit logs, identity registries, and engineering mappings to external control frameworks. Zero third-party runtime dependencies; `pip install hummbl-governance`. Apache-2.0.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Input and output validation framework for LLM responses. Define schemas, validators, and automated correction actions that enforce structure and safety constraints at inference time.
 - [MAREF](https://github.com/maref-org/maref) - Open-source agent governance operating system with TLA+ formal verification, 10-state Gray Code governance state machine, per-agent Ed25519 identity, circuit breaker with HALT absorbing state, and LoRA/ontology dual drift detection. Covers 10/10 OWASP Agentic Top 10 risks. Apache 2.0.
 
@@ -134,6 +135,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Policy Engines and Authorisation
 
+- [AgentGate](https://www.tryagentgate.com/) - Pre-execution authorization PDP for autonomous AI agents. Evaluates each request before execution, detects multi-step kill-chain patterns across a 24-hour window, and records a Merkle-chained audit trail. Python (`pip install agentgate-pdp`) and TypeScript SDKs with LangGraph, LangChain, and AutoGen integrations. MIT.
 - [OPA Rego Playground](https://play.openpolicyagent.org/) - Browser-based environment for writing and testing OPA/Rego policies without local setup.
 - [Cedar Policy Language](https://www.cedarpolicy.com/) - AWS-designed authorisation language with formally verified semantics. Human-readable syntax built for per-request authorisation decisions at high throughput.
 - [Casbin](https://www.casbin.org/) - Multi-model access control library supporting ACL, RBAC with hierarchy and domain, ABAC, and RESTful models in 10+ languages.
