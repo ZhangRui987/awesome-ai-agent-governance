@@ -20,7 +20,7 @@ Contributions welcome.
 - [Industry Standards and Guidance](#industry-standards-and-guidance)
 - [Open-Source Governance Toolkits](#open-source-governance-toolkits)
 - [Free Governance Tools](#free-governance-tools)
-- [Enterprise Governance Platforms](#enterprise-governance-platforms)
+- [Enterprise Governance Solutions](#enterprise-governance-solutions)
 - [Claude Code and MCP Governance](#claude-code-and-mcp-governance)
 - [Policy Engines and Authorisation](#policy-engines-and-authorisation)
 - [Audit, Observability, and Cost Control](#audit-observability-and-cost-control)
@@ -104,7 +104,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ---
 
-## Enterprise Governance Platforms
+## Enterprise Governance Solutions
 
 - [systemprompt.io](https://systemprompt.io) - Self-hosted AI governance infrastructure: a single compiled Rust binary on your own systems that governs, logs, and cost-controls every AI interaction across every provider and client (Claude, Codex, Gemini, or your own agents). Authentication, authorisation, audit trail, policy enforcement, and a provider gateway behind one /v1 endpoint. Air-gap capable; the only entry in this section you run entirely on your own infrastructure. Source-available BSL-1.1 via [systemprompt-template](https://github.com/systempromptio/systemprompt-template).
 - [Certiv](https://certiv.ai/) - Endpoint-native, pre-execution security and governance layer for AI agents. An endpoint agent inspects agent actions and tool calls on the device and enforces policy before they execute, with an audit trail of allowed and blocked actions.
