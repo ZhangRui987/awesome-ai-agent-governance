@@ -135,7 +135,6 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Policy Engines and Authorisation
 
-- [AgentGate](https://www.tryagentgate.com/) - Pre-execution authorization PDP for autonomous AI agents. Evaluates each request before execution, detects multi-step kill-chain patterns across a 24-hour window, and records a Merkle-chained audit trail. Python (`pip install agentgate-pdp`) and TypeScript SDKs with LangGraph, LangChain, and AutoGen integrations. MIT.
 - [OPA Rego Playground](https://play.openpolicyagent.org/) - Browser-based environment for writing and testing OPA/Rego policies without local setup.
 - [Cedar Policy Language](https://www.cedarpolicy.com/) - AWS-designed authorisation language with formally verified semantics. Human-readable syntax built for per-request authorisation decisions at high throughput.
 - [Casbin](https://www.casbin.org/) - Multi-model access control library supporting ACL, RBAC with hierarchy and domain, ABAC, and RESTful models in 10+ languages.
