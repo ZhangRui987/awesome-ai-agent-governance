@@ -118,9 +118,10 @@ Interactive tools that answer common governance questions without a signup. Each
 
 ## Enterprise Governance Solutions
 
+- [AgenticRail](https://agenticrail.nz/product/) - Hosted pre-execution gate for AI agent step order. The caller declares the intended sequence in advance, any step presented out of order is refused before it executes, and the sequence is sealed on completion. Every decision, permit and refusal alike, is written to an Ed25519-signed, hash-chained receipt that verifies offline against published keys. Closed source, free tier with a public demo key.
 - [Certiv](https://certiv.ai/) - Endpoint-native, pre-execution security and governance layer for AI agents. An endpoint agent inspects agent actions and tool calls on the device and enforces policy before they execute, with an audit trail of allowed and blocked actions.
-- [Credo AI](https://www.credo.ai/) - Comprehensive AI governance platform covering risk assessment, compliance mapping (EU AI Act, NIST AI RMF, ISO 42001), model cards, and ongoing monitoring across the AI lifecycle.
 - [CoreBase](https://corebasehq.com/) - Governance layer for agents that read and write to live business systems; databases, REST and GraphQL APIs, MCP servers, and 50+ SaaS apps. Enforces rules on every tool call, holds risky actions for human sign-off, and logs executed and blocked calls alike. Per-tenant Postgres row-level security, embeddable widget, and an API.
+- [Credo AI](https://www.credo.ai/) - Comprehensive AI governance platform covering risk assessment, compliance mapping (EU AI Act, NIST AI RMF, ISO 42001), model cards, and ongoing monitoring across the AI lifecycle.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) - Production monitoring for LLM applications: latency, cost, quality scoring, and trace capture integrated with existing Datadog infrastructure.
 - [HiddenLayer](https://hiddenlayer.com/) - AI detection and response platform. Monitors AI models for adversarial attacks, data extraction attempts, and policy violations.
 - [Lumenova AI](https://www.lumenova.ai/) - AI lifecycle governance: risk assessment, explainability monitoring, and compliance reporting focused on model transparency and regulatory evidence.
@@ -185,6 +186,7 @@ Interactive tools that answer common governance questions without a signup. Each
 
 - [AI Incident Database](https://incidentdatabase.ai/) - Searchable database of 700+ documented AI system failures and harms in deployment. Essential for building realistic threat models and risk assessments.
 - [awesome-ai-agent-attacks](https://github.com/webpro255/awesome-ai-agent-attacks) - Curated timeline of 160+ documented AI agent security incidents, breaches, and vulnerabilities (2024-2026). Every entry dated, sourced, and categorized by attack pattern.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - GPL-3.0 autonomous AI penetration testing platform. Agentic reasoning drives real exploit execution across web, API, cloud, identity, CI/CD, IaC, Active Directory, and Kubernetes, producing proof-based findings; a privacy gateway keeps real hosts, addresses, and credentials out of the LLM context.
 - [Garak](https://github.com/NVIDIA/garak) - NVIDIA's LLM vulnerability scanner. Probes deployed models for prompt injection, jailbreaks, data leakage, hallucination, and toxicity.
 - [LLM Guard](https://github.com/protectai/llm-guard) - Security toolkit for LLM interactions with input and output scanners for prompt injection, PII, toxicity, and sensitive data.
 - [PromptBench](https://github.com/microsoft/promptbench) - Microsoft's unified evaluation framework for adversarial robustness of LLMs. Tests models against adversarial prompts at character, word, sentence, and semantic levels.
@@ -243,5 +245,4 @@ Interactive tools that answer common governance questions without a signup. Each
 ## Related Lists
 
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Comprehensive directory of MCP server implementations.
-- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - an open source (GPL-3.0) autonomous AI penetration testing platform for web, API, Active Directory and Kubernetes.
 - [AwesomeResponsibleAI](https://github.com/AthenaCore/AwesomeResponsibleAI) - Academic and policy resources for responsible AI covering ethics, standards, and regulatory frameworks.
