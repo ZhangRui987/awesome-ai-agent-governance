@@ -155,9 +155,9 @@ Interactive tools that answer common governance questions without a signup. Each
 - [Casbin](https://www.casbin.org/) - Multi-model access control library supporting ACL, RBAC with hierarchy and domain, ABAC, and RESTful models in 10+ languages.
 - [Cedar Policy Language](https://www.cedarpolicy.com/) - AWS-designed authorisation language with formally verified semantics. Human-readable syntax built for per-request authorisation decisions at high throughput.
 - [HashiCorp Sentinel](https://www.hashicorp.com/sentinel) - Policy-as-code framework for Terraform, Vault, Consul, and Nomad. Useful for governing infrastructure provisioned by AI agents.
+- [MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard) - Deterministic pre-action policy engine for agent payments. Budgets, destination allowlists, rate limits, Ed25519-signed short-lived mandates, and a SHA-256 chained audit ledger, with no model in the decision path. Ships an MCP server.
 - [OPA Rego Playground](https://play.openpolicyagent.org/) - Browser-based environment for writing and testing OPA/Rego policies without local setup.
 - [Ory Keto](https://github.com/ory/keto) - Open-source permission server implementing Google Zanzibar's relation-based access control model for fine-grained agent tool permissions.
-- [MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard) - Deterministic payment policy engine for AI agents: budgets, allowlists, rate limits, signed Ed25519 mandates, tamper-evident audit ledger. Pre-action authorization gate with no LLM in the decision path. MCP server on official registry. MIT core.
 
 ---
 
