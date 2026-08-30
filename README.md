@@ -239,6 +239,8 @@ Interactive tools that answer common governance questions without a signup. Each
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - SDK for building human-in-the-loop workflows for AI agents. Wraps tool calls with approval gates, audit trails, and escalation paths.
 - [Least privilege as an import contract](https://github.com/chohan-sarmad-ali/delivery-case-studies/blob/main/05-least-privilege-as-an-import-contract.md) - Single-egress architecture for agent systems: all outbound calls originate from one package behind policy checks and mandatory human approval, an import-linter contract enforced in CI keeps it single, and a static AST gate closes the authorisation gap the import contract cannot see. Includes the incident that motivated the layering and the limits of each layer.
 - [Lilian Weng: LLM-Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) - Comprehensive survey of agent architectures including planning, memory, tool use, and oversight mechanisms.
+- [Agent Oversight Framework（AI 执行与监察体系）](https://github.com/ZhangRui987/agent-oversight-framework) - A layered governance specification for AI agent oversight: G×S grading (task risk × agent count), an evidence-integrity subsystem (E1–E5: kernel-level collection plus cross-validation), swarm governance with seven emergence signals, a voluntary-abstention exit, and a self-correcting back-propagation checklist — every claim graded A/B/C/D against 26 citable sources. CC BY-SA 4.0, 2026-present.
+
 
 ---
 
